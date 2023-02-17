@@ -17,7 +17,8 @@ const processData = {
 }
 
 info.get('/info', pathLog, (req, res) => {
-  res.json(processData)
+  console.log(processData);
+  res.json(processData);
 })
 
 export default info;

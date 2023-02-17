@@ -1,1 +1,2 @@
 [2023-02-17T01:44:34.127] [WARN] warnFile - Proceso 13184 escuchando en el puerto 8090
+[2023-02-17T03:32:42.470] [WARN] warnFile - Ruta inexistente solicitada con el método GET (/favicon.ico)

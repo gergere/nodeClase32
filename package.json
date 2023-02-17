@@ -6,12 +6,14 @@
   "main": "src/main.js",
   "scripts": {
     "start": "node src/main.js -p 8090",
-    "watch": "nodemon src/main.js -e ejs,html,js,json"
+    "watch": "nodemon src/main.js -e ejs,html,js,json",
+    "test": "node autocannon.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "autocannon": "^7.10.0",
     "compression": "^1.7.4",
     "connect-mongo": "^4.5.0",
     "dotenv": "^16.0.3",
